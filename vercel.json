@@ -2,8 +2,8 @@
   "version": 2,
   "routes": [
     {
-      "src": "/api/booking",   
-      "status": 200
+      "src": "/api/booking",
+      "destination": "/api/booking"
     }
   ]
 }
