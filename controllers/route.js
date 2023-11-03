@@ -29,18 +29,16 @@ app.use(express.json());
   }
 });
 
- router.get("/", async (req, res) => {
-    res.send("you are on the home bro")
-  })
-// router.get("/", async (req, res) => {
-//   const myData = await bookMovieTicketSchema.find().sort({ _id: -1 }).limit(1);
+ 
+router.get("/", async (req, res) => {
+  const myData = await bookMovieTicketSchema.find().sort({ _id: -1 }).limit(1);
  
  
-//   if (myData.length === 0) {
-//      res.status(200).json({ data: null, message: "No previous Booking found!" });
-//   } else {
-//      res.status(200).json({ data: myData[0] });
-//   }
-// });
+  if (myData.length === 0) {
+     res.status(200).json({ data: null, message: "No previous Booking found!" });
+  } else {
+     res.status(200).json({ data: myData[0] });
+  }
+});
 
 module.exports = router;
