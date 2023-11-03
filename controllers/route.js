@@ -10,10 +10,9 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.json());
 
- router.post("/booking", async (req, res) => {
+ router.post("/", async (req, res) => {
   const { movie, slot, seats } = req.body;
-  console.log(movie, slot, seats,"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ movie, slot, seatsmovie, slot, seatsmovie, slot, seats~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-  const myData = new bookMovieTicketSchema({ movie, slot, seats });
+   const myData = new bookMovieTicketSchema({ movie, slot, seats });
   const saved = await myData.save();
 
   if (saved) {
@@ -30,10 +29,10 @@ app.use(express.json());
   }
 });
 
+// router.get("/", async (req, res) => {
+//   res.send("you are on the home bro")
+// })
 router.get("/", async (req, res) => {
-  res.send("you are on the home bro")
-})
-router.get("/booking", async (req, res) => {
   const myData = await bookMovieTicketSchema.find().sort({ _id: -1 }).limit(1);
  
  
