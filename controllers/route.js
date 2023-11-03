@@ -29,9 +29,7 @@ app.use(express.json());
   }
 });
 
-// router.get("/", async (req, res) => {
-//   res.send("you are on the home bro")
-// })
+ 
 router.get("/", async (req, res) => {
   const myData = await bookMovieTicketSchema.find().sort({ _id: -1 }).limit(1);
  
