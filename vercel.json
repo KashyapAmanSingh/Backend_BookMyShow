@@ -2,8 +2,15 @@
   "version": 2,
   "routes": [
     {
-      "src": "/booking",
-       "status": 200
-    }
+      "src": "^/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": ".*",
+      "status": 404 
+     }
   ]
 }
