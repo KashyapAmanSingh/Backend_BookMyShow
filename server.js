@@ -12,7 +12,7 @@ app.use(cors());
 
  connectToMongo();
  
- app.use("/", router);
+ // app.use("/", router);
 
 // listening backend on a port.
 app.listen(port, () => console.log(`App listening on port ${port}!`));
