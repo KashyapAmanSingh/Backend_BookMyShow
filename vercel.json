@@ -1,11 +1,11 @@
  
 {
     "version": 2,
- 
+   
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "service.js"
+        "dest": "server.js"
       }
     ]
   }
