@@ -8,9 +8,11 @@ const router = require("./controllers/route/route"); // Import router for API ro
 const port = 8080;
 app.use(bodyParser.urlencoded({ extended: false })); // Parse URL-encoded request bodies
 app.use(bodyParser.json()); // Parse JSON request bodies
-app.use(cors()); // Enable CORS (Cross-Origin Resource Sharing)
 require('dotenv').config(); // Load environment variables from .env file
- 
+
+app.use(cors()); //
+
+  
 // Connect to MongoDB
 connectToMongo(process.env.DATABASE_URL);
  
