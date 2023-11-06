@@ -27,7 +27,7 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 
 ### Base URL
 
-- [https://backend-book-my-show.vercel.app/](https://backend-book-my-show.vercel.app/)
+- https://backend-book-my-show-kdfrg2hcm-kashyapamansingh.vercel.app
 
 ### Booking
 
@@ -38,7 +38,7 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 
 Here is the link to the deployed project for the backend:
 
-- For Backend: [https://backend-book-my-show.vercel.app/api/bookings](https://backend-book-my-show.vercel.app/api/bookings)
+- For Backend:  https://backend-book-my-show-kdfrg2hcm-kashyapamansingh.vercel.app
 
 # Environment Variables
 
