@@ -23,6 +23,31 @@ node server.js
 
 This will start the backend application using Express, Node.js, and MongoDB, enabling you to access it at http://localhost:8080.
 
+## Schema Docs--- This is the documentation of the schema for movie bookings
+
+/**
+ * @typedef {Object} BookMovieTicket
+ * @property {String} movie - The name of the movie for which the ticket is booked.
+ * @property {String} slot - The time slot for the movie.
+ * @property {Object} seats - The details of the booked seats.
+ * @property {String} seats.A1 - The status of seat A1.
+ * @property {String} seats.A2 - The status of seat A2.
+ * @property {String} seats.A3 - The status of seat A3.
+ * @property {String} seats.A4 - The status of seat A4.
+ * @property {String} seats.D1 - The status of seat D1.
+ * @property {String} seats.D2 - The status of seat D2.
+ */
+
+/**
+ * Represents a schema for storing movie booking details.
+ * @type {mongoose.Schema<BookMovieTicket>}
+ */
+/**
+ * Mongoose model for storing movie booking details.
+ * @name BookTicketModel
+
+
+
 ## API Reference
 
 ### Base URL
