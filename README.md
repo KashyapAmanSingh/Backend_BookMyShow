@@ -7,7 +7,7 @@ Hello viewers, this is the backend part of the capstone project of the backend m
 To run the backend part of the application, follow these steps:
 
 1. Clone the repository to your local machine.
-git clone https://backend-book-my-show.vercel.app/
+ https://github.com/KashyapAmanSingh/Backend_BookMyShow
 
 
 2. Navigate to the backend directory.
@@ -27,7 +27,7 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 
 ### Base URL
 
-- https://backend-book-my-show-kdfrg2hcm-kashyapamansingh.vercel.app
+- https://backend-book-my-show-pvlja8xe4-kashyapamansingh.vercel.app/
 
 ### Booking
 
@@ -38,7 +38,7 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 
 Here is the link to the deployed project for the backend:
 
-- For Backend:  https://backend-book-my-show-kdfrg2hcm-kashyapamansingh.vercel.app
+- For Backend:  https://backend-book-my-show-pvlja8xe4-kashyapamansingh.vercel.app/
 
 # Environment Variables
 
@@ -55,5 +55,5 @@ To run this project, you will need to add the following environment variables to
 
 - Server: Node, Express
 - Database: MongoDB
-
  
+  
