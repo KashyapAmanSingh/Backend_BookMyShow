@@ -25,9 +25,7 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 
 ## Schema Docs--- This is the documentation of the schema for movie bookings
 
-/**
- * @typedef {Object} BookMovieTicket
- * @property {String} movie - The name of the movie for which the ticket is booked.
+ * @typedef {Object} BookMovieTicket * @property {String} movie - The name of the movie for which the ticket is booked.
  * @property {String} slot - The time slot for the movie.
  * @property {Object} seats - The details of the booked seats.
  * @property {String} seats.A1 - The status of seat A1.
@@ -38,12 +36,10 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
  * @property {String} seats.D2 - The status of seat D2.
  */
 
-/**
+ 
  * Represents a schema for storing movie booking details.
  * @type {mongoose.Schema<BookMovieTicket>}
- */
-/**
- * Mongoose model for storing movie booking details.
+  Mongoose model for storing movie booking details.
  * @name BookTicketModel
 
 
