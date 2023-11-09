@@ -35,6 +35,7 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 - `POST /api/bookings`: (Provide details of required parameters if any)
 
 # Deployment
+![live Ui](https://github.com/KashyapAmanSingh/Backend_BookMyShow/assets/119684617/11935ac4-da63-490b-8890-3eceb19d5dd8)
 
 Here is the link to the deployed project for the backend:
 
@@ -56,4 +57,5 @@ To run this project, you will need to add the following environment variables to
 - Server: Node, Express
 - Database: MongoDB
  
-  
+  ## worked Individually
+
