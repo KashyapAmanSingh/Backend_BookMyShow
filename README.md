@@ -51,7 +51,9 @@ This will start the backend application using Express, Node.js, and MongoDB, ena
 - https://backend-book-my-show-pvlja8xe4-kashyapamansingh.vercel.app/
 
 ### Booking
-
+ This is the link Api Schema Documentation of this repo click to know more in detail-
+ https://documenter.getpostman.com/view/26716049/2s9YXk1zmB
+ 
 - `GET /api/bookings`: Returns a list of all bookings stored in the database in JSON format.
 - `POST /api/bookings`: (Provide details of required parameters if any)
 
